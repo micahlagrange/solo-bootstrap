@@ -4,12 +4,12 @@ Installs chef-solo on a remote host via ssh, deploys cookbooks, and executes che
 
 Assumes ubuntu 16.04 (or any system with the `apt` command available)
 
-# Before running
+## Before running
 
 Set up your .ssh/config for the remote server
 The user must be root or have sudo privileges with no password.
 
-# Executing
+## Executing
 
 Pass in the following arguments:
 
@@ -17,7 +17,7 @@ Pass in the following arguments:
 2. The json attributes for chef-solo
 3. The cookbooks path on the local system
 
-## Example
+### Example
 
 To run the example, clone this repo execute:
 
