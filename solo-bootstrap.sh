@@ -81,7 +81,7 @@ ssh "$SSH_HOST" << 'EOF'
 EOF
 
 # Cleanup from last run:
-ssh "$SSH_HOST" "sudo rm -r $CHEF_PATH/nodes"
+ssh "$SSH_HOST" "sudo rm -rf $CHEF_PATH/nodes"
 
 # Create chef directory
 ssh "$SSH_HOST" "mkdir -p $CHEF_PATH/cookbooks"
