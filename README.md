@@ -17,4 +17,9 @@ Pass in the following arguments:
 2. The json attributes for chef-solo
 3. The cookbooks path on the local system
 
+## Example
+
+To run the example, clone this repo execute:
+`./bootstrap.sh ssh-host-name /full/path/to/example/node.json /full/path/to/example/cookbooks/`
+
 Copyright 2017 Micah Turner
