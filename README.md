@@ -1,5 +1,7 @@
 # solo-bootstrap
 
+:cookie:
+
 Installs chef-solo on a remote host via ssh, deploys cookbooks, and executes chef-solo with a run list.
 
 Assumes ubuntu 16.04 (or any system with the `apt` command available)
